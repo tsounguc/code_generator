@@ -1,8 +1,9 @@
 import 'package:annotations/annotations.dart';
-part 'person.g.dart';
+
+part 'order.g.dart';
 
 @jsonGen
-class Person {
+class Order {
   String name;
   String lastName;
   bool isAdult;
